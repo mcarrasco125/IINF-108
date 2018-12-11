@@ -1,0 +1,8 @@
+minutes=input('enter minutes')
+minutes=eval(minutes)
+seconds=input('enter seconds')
+seconds=eval(seconds)
+total=seconds+60*minutes
+print(type(seconds))
+print(type(minutes))
+print(total)
